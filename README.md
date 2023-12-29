@@ -1,0 +1,2 @@
+# Scribe
+A dialog system
