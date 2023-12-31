@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Scribe.Entries
 {
+    /// <summary>
+    /// Refer to an entry with it's system id
+    /// </summary>
     public struct EntryReference : IEquatable<EntryReference>
     {
         internal int InternalId;

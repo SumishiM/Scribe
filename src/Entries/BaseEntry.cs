@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Scribe.Entries
 {
+    /// <summary>
+    /// Base class for entries in Scribe systems
+    /// </summary>
     public class BaseEntry
     {
         public int Id;
