@@ -1,9 +1,5 @@
 ﻿using Scribe.Entries;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Immutable;
 
 namespace Scribe
 {
@@ -15,6 +11,7 @@ namespace Scribe
         public List<FactEntry> Facts = new List<FactEntry>();
         public List<EventEntry> Events = new List<EventEntry>();
 
+        public readonly ImmutableHashSet<int> EntryIndex = [];
 
         public void AddEntry(BaseEntry entry)
         {
